@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    line-height: 1rem;
+    font-size: 1rem;;
+
+}
+
+ul{
+    list-style: none;
+}
+
+.sidebar-toggle{
+    position: fixed;
+    top: 2rem;
+    right: 3rem;
+    font-size: 2rem;
+    background: transparent;
+    border-color: transparent;
+    color: rgb(15, 167, 218);
+    cursor: pointer;
+    animation: bounce 2s ease-in-out infinite;
+
+}
+
+@keyframes bounce {
+    0%{
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.5);
+    }
+    
+    100% {
+        transform: scale(1);
+    }
+}
+
+.sidebar-toggle:hover{
+    color: rgb(9, 9, 50);
+}
+
+
