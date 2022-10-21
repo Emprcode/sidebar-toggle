@@ -60,7 +60,8 @@ ul{
     cursor: pointer;
   }
 
-  .close-btn :hover{
+   .close-btn:hover{
+    /* color: red; */
     transform: rotate(360deg);
   }
   .links a {
@@ -87,7 +88,7 @@ ul{
   
   }
   .social-links a:hover {
-    color: red;
+    color: rgb(213, 29, 29);
   }
   
   .sidebar {
